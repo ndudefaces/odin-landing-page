@@ -37,6 +37,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 8px;
     background-color: #1F2937;
 }
 
