@@ -19,6 +19,10 @@ a {
 }
 
 button {
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding: 8px 36px;
     color: #E5E7EB;
     background-color: #3882F6;
 }
@@ -26,8 +30,7 @@ button {
 .container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex: 1;
 }
 
 .header {
@@ -44,8 +47,20 @@ button {
 
 .hero-text {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #1F2937;
-    padding-top: 120px;
+    padding: 120px;
+    
+}
+
+.hero-left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    align-items: center;
+    padding: 12px; 
+    margin: 12px;
 }
 
 .hero-main {
@@ -57,10 +72,11 @@ button {
 .hero-secondary, .fake-image {
     font-size: 18px;
     color:#E5E7EB;
+    margin: 8px;
 }
 
-.fake-image {
-    background-color: darkgrey;
-    padding: 100px;
-    width: 500px;
+.grayson {
+    display: flex;
+    height: 300px;
+    width: auto;
 }
