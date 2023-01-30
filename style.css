@@ -106,3 +106,24 @@ button {
     flex-wrap: wrap;
     width: 150px
 }
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 100px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+
+cite {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    color:#1F2937;
+}
