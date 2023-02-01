@@ -145,6 +145,11 @@ cite {
     color: #E5E7EB;
 }
 
+.action-header {
+    font-weight: 900;
+    font-size: 18px;
+}
+
 .action-button {
     padding: 32px 128px 32px 0px;
     background-color: #3882F6;
