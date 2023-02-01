@@ -127,3 +127,27 @@ cite {
     font-style: normal;
     color:#1F2937;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 72px;
+}
+
+.action-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    background-color: #3882F6;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 32px 64px 32px 128px;
+    color: #E5E7EB;
+}
+
+.action-button {
+    padding: 32px 128px 32px 0px;
+    background-color: #3882F6;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
