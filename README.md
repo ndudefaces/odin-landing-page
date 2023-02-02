@@ -1,1 +1,1 @@
-# odin-landing-page
+Hello again! Welcome to my janky landing page. I wasn't really feeling confident going into this, but I quickly realized that I had actually learned more than I thought through the flex exercises. The page and pictures aren't super pretty and I'm sure the text could use some work, but I'm proud of the layout and super ecited for what comes next!
